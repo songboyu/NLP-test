@@ -1,8 +1,8 @@
 # -*- coding:utf-8 -*-
 '''
-Created on 2012-7-4
-
-@author: jingoal
+  author: songboyu
+  create: 2013-10-27
+  summary: 逆向最大匹配
 '''
 
 from common import u
@@ -10,7 +10,6 @@ from common import u
 CODEC='utf-8'
 
 def bwd_mm_seg(wordDict, maxLen, str):
-    'forward max method segment'
     wordList = []
     segStr = str
     segStrLen = len(segStr)
@@ -26,7 +25,6 @@ def bwd_mm_seg(wordDict, maxLen, str):
             else:
                 wordLen = wordLen - 1
                 subStr = subStr[-wordLen:None]
-#            print "subStr3: ", subStr
         wordList.append(subStr)
         segStr = segStr[0: -wordLen]
         segStrLen = segStrLen - wordLen

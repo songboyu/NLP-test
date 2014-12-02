@@ -1,4 +1,10 @@
 # -*- coding:utf-8 -*-
+'''
+  author: songboyu
+  create: 2013-10-27
+  summary: 测试类
+'''
+
 import re
 
 from common import u
