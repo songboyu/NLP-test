@@ -30,7 +30,6 @@ class Graph(object):
 class InputMethod(object):
   def __init__(self, uni_file, bi_file, py_file):
     self.lm = self.load_lm(uni_file, bi_file)
-    # {'pinyin':{汉字 : 0.5}}
     self.emission = {}
     # 待求解的拼音输入
     self.pinyins = []
@@ -112,17 +111,14 @@ class InputMethod(object):
     return node.max_score
 
 def main():
-  im = InputMethod('freq/word_freq.txt', 'freq/Bigram_freq.txt', 'PinYin.txt')
-  print ''
-  im.translate(['zhong','wen','shu','ru','fa'])
-  print ''
-  im.translate(['zhong','hua','ren','min','gong','he','guo'])
-  print ''
-  im.translate(['yi','zhi','mei','li','de','xiao','hua'])
+  im = InputMethod('freq/1.txt', 'freq/2.txt', 'PinYin.txt')
+  print im.translate(['zhong','wen','shu','ru','fa'])
+  print im.translate(['zhong','hua','ren','min','gong','he','guo'])
+  print im.translate(['yi','zhi','mei','li','de','xiao','hua'])
 
-  while True:
-    pinyins = raw_input("pinyin: ")
-    print im.translate(pinyins.split())
+  # while True:
+  #   pinyins = raw_input("pinyin: ")
+  #   print im.translate(pinyins.split())
 
 if __name__ == '__main__':
   main()

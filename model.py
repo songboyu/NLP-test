@@ -3,17 +3,19 @@
 class LanguageModel(object):
 
   def __init__(self, uni_file, bi_file):
-    self.words = []
+    self.unigram_count = 0
+    self.words_count = 0
     self.freq = {}
 
-    print '---Hashing Unigram..'
+    print '[ Hashing Unigram ]'
     f =  open(uni_file,'r')
     for line in f:
       key,freq = line.split()
       self.freq[key] = int(freq)
-      self.words.append(key)
+      self.unigram_count += 1
+      self.words_count += int(freq)
 
-    print '---Hashing Bigram..'
+    print '[ Hashing Bigram ]'
     f =  open(bi_file,'r')
     for line in f:
       key,freq = line.split()
@@ -26,13 +28,16 @@ class LanguageModel(object):
       self.freq[key] = 0
     if condition not in self.freq:
       self.freq[condition] = 0
-    C_1 = (float)(self.freq[key] + 1.0)
-    C_2 = (float)(self.freq[condition] + len(self.words))
+    C_1 = (float)(self.freq[key] + 0.5)
+    C_2 = (float)(self.freq[condition] + 0.5*self.unigram_count)
+    # print C_1,C_2
     return C_1/C_2
 
   def get_init_prop(self, word):
     """获得初始概率"""
-    return self.get_trans_prop(word,'@')
+    C_1 = (float)(self.freq[word])
+    C_2 = (float)(self.words_count)
+    return C_1/C_2
 
   def get_prop(self, *words):
     """获得指定序列的概率"""
@@ -43,13 +48,13 @@ class LanguageModel(object):
     return init * product
 
 def main():
-    lm = LanguageModel('freq/word_freq.txt', 'freq/Bigram_freq.txt',)
-    print 'total words: ', len(lm.words)
+    lm = LanguageModel('freq/1.txt', 'freq/2.txt',)
+    print 'total words: ', lm.unigram_count
     print 'total keys: ', len(lm.freq)
     print 'P(结) = ', lm.get_init_prop('结')
     print 'P(结|团) = ', lm.get_trans_prop('结','团')
-    print 'P(斗|奋) = ', lm.get_trans_prop('斗','奋')
-    print 'P(法|入) = ', lm.get_trans_prop('法','入')
+    print 'P(人民|中国) = ', lm.get_trans_prop('人民','中国')
+    print 'P(法|输入) = ', lm.get_trans_prop('法','输入')
     print 'P(发|入) = ', lm.get_trans_prop('发','入')
     print 'P(奋斗|团结) = ', lm.get_trans_prop('奋斗','团结')
 
