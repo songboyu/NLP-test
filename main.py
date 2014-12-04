@@ -27,7 +27,6 @@ class Graph(object):
         current_position[word] = node
       self.sequence.append(current_position)
 
-
 class InputMethod(object):
   def __init__(self, uni_file, bi_file, py_file):
     self.lm = self.load_lm(uni_file, bi_file)
@@ -84,8 +83,8 @@ class InputMethod(object):
         max_node = max_node.prev_node
       else:
         break
-    print ' '.join(self.pinyins)
-    print ' '.join(result)
+    # print ' '.join(self.pinyins)
+    return (' '.join(result)).decode('utf8')
 
   def viterbi(self, t, k):
     """
@@ -117,11 +116,13 @@ def main():
   print ''
   im.translate(['zhong','wen','shu','ru','fa'])
   print ''
-  im.translate(['ren','min','ri','bao','ri','ren','min'])
-  print ''
   im.translate(['zhong','hua','ren','min','gong','he','guo'])
   print ''
   im.translate(['yi','zhi','mei','li','de','xiao','hua'])
+
+  while True:
+    pinyins = raw_input("pinyin: ")
+    print im.translate(pinyins.split())
 
 if __name__ == '__main__':
   main()

@@ -41,32 +41,26 @@ class NGram(object):
         '''
         # unigram
         if self.n == 1:
-            for word in words:
-                if word not in self.wordDict:
+            for i in range(0,len(words)):
+                key = words[i]
+                if key not in self.wordDict:
                     continue
-                if word not in self.unigram:
-                    self.unigram[word] = 1
+                if key not in self.unigram:
+                    self.unigram[key] = 1
                 else:
-                    self.unigram[word] = self.unigram[word] + 1
+                    self.unigram[key] += 1
 
         # bigram
         if self.n == 2:
-            num = 0
-            stri = ''
-            for word in words:
-                if word not in self.wordDict:
+            for i in range(1,len(words)):
+                if words[i] not in self.wordDict:
                     continue
-                num = num + 1
-                if num == 2:
-                    stri  = stri + '|'
-                stri = stri + word
-                if num == 2:
-                    if stri not in self.bigram:
-                        self.bigram[stri] = 1
-                    else:
-                        self.bigram[stri] = self.bigram[stri] + 1
-                    num = 0
-                    stri = ''
+                if words[i-1] not in self.wordDict:
+                    continue
+                key = words[i] + '|' + words[i-1]
+                if key not in self.bigram:
+                    self.bigram[key] = 1
+                self.bigram[key] += 1
 
 if __name__== '__main__':
     lines = []

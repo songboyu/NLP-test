@@ -11,8 +11,7 @@ class LanguageModel(object):
     for line in f:
       key,freq = line.split()
       self.freq[key] = int(freq)
-      for i in range(int(freq)):
-        self.words.append(key)
+      self.words.append(key)
 
     print '---Hashing Bigram..'
     f =  open(bi_file,'r')
@@ -33,7 +32,7 @@ class LanguageModel(object):
 
   def get_init_prop(self, word):
     """获得初始概率"""
-    return self.get_trans_prop(word,'<s>')
+    return self.get_trans_prop(word,'@')
 
   def get_prop(self, *words):
     """获得指定序列的概率"""
@@ -47,6 +46,7 @@ def main():
     lm = LanguageModel('freq/word_freq.txt', 'freq/Bigram_freq.txt',)
     print 'total words: ', len(lm.words)
     print 'total keys: ', len(lm.freq)
+    print 'P(结) = ', lm.get_init_prop('结')
     print 'P(结|团) = ', lm.get_trans_prop('结','团')
     print 'P(斗|奋) = ', lm.get_trans_prop('斗','奋')
     print 'P(法|入) = ', lm.get_trans_prop('法','入')
