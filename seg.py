@@ -25,6 +25,7 @@ def file_seg_process(filename, method):
 
     # 对input每一行操作
     for eachLine in fp_input:
+
         str = u(eachLine.strip(), 'utf-8')
         line_out = ''
         strlen = len(str)
@@ -46,11 +47,13 @@ def file_seg_process(filename, method):
                 strlen = strlen - subLen
                 continue
 
-            subStr = str[0]
-            line_out += subStr.encode(CODEC)
+            # subStr = str[0]
+            # line_out += subStr.encode(CODEC)
             str = str[1:]
             strlen = strlen - 1
 
+        if line_out.strip() == '':
+            continue
         fp_output.write(line_out + '\n')
     # close file
     fp_input.close()

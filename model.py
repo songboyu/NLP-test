@@ -2,24 +2,25 @@
 
 class LanguageModel(object):
 
-  def __init__(self, uni_file, bi_file):
+  def __init__(self):
     self.unigram_count = 0
     self.words_count = 0
     self.freq = {}
-
     print '[ Hashing Unigram ]'
-    f =  open(uni_file,'r')
+    f =  open('freq/21.txt','r')
     for line in f:
       key,freq = line.split()
       self.freq[key] = int(freq)
       self.unigram_count += 1
       self.words_count += int(freq)
+    f.close()
 
     print '[ Hashing Bigram ]'
-    f =  open(bi_file,'r')
+    f =  open('freq/22.txt','r')
     for line in f:
       key,freq = line.split()
       self.freq[key] = int(freq)
+    f.close()
 
   def get_trans_prop(self, word, condition):
     """获得转移概率"""
@@ -30,7 +31,6 @@ class LanguageModel(object):
       self.freq[condition] = 0
     C_1 = (float)(self.freq[key] + 0.5)
     C_2 = (float)(self.freq[condition] + 0.5*self.unigram_count)
-    # print C_1,C_2
     return C_1/C_2
 
   def get_init_prop(self, word):
@@ -48,13 +48,13 @@ class LanguageModel(object):
     return init * product
 
 def main():
-    lm = LanguageModel('freq/1.txt', 'freq/2.txt',)
+    lm = LanguageModel()
     print 'total words: ', lm.unigram_count
     print 'total keys: ', len(lm.freq)
     print 'P(结) = ', lm.get_init_prop('结')
     print 'P(结|团) = ', lm.get_trans_prop('结','团')
-    print 'P(人民|中国) = ', lm.get_trans_prop('人民','中国')
-    print 'P(法|输入) = ', lm.get_trans_prop('法','输入')
+    print 'P(国|中) = ', lm.get_trans_prop('国','中')
+    print 'P(法|入) = ', lm.get_trans_prop('法','入')
     print 'P(发|入) = ', lm.get_trans_prop('发','入')
     print 'P(奋斗|团结) = ', lm.get_trans_prop('奋斗','团结')
 

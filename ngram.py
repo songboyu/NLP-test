@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-import os
+import os,re
 
 from common import u
 
@@ -9,10 +9,10 @@ class NGram(object):
         self.unigram = {}
         self.bigram = {}
         self.wordDict = []
-        dict = open('PinYin.txt')
-        for line in dict:
-            if len(line.strip()) > 0:
-                self.wordDict.append(line.strip().split()[0])
+        # dict = open('dict.txt')
+        # for line in dict:
+        #     if len(line.strip()) > 0:
+        #         self.wordDict.append(line.strip())
 
     def scan(self, lines):
         '''
@@ -21,23 +21,30 @@ class NGram(object):
         @return   none
         '''
         words = []
+        num = 0
         for line in lines:
-            # 统计n元字频，若统计词频将 list(lines) 替换为 line.split('/')
-            words.extend([w for w in list(lines) if len(w.strip())>0 and w in self.wordDict])
+            num+=1
+            print num
+            # 统计n元字频，若统计词频将 list(line.decode('utf8')) 替换为 line.decode('utf8').split('/')
+            words.extend([w.encode('utf8') for w in list(line.decode('utf8').split('/')) if len(w.strip())>0])#and w in self.wordDict])
+        # file = open("words.txt","w")
+        # for i in words:
+        #     file.write(i+' ')
+        # file.close()
         print '[ Make words list finish ]'
 
         self.ngram(words)
         print '[ Hash finish ]'
 
         #unigram
-        file = open("freq/1.txt","w")
+        file = open("freq/21.txt","w")
         for i in self.unigram:
             file.write("%s\t%d\n" % (i,self.unigram[i]))
         file.close()
         print '[ Unigram file finish ]'
 
         #bigram
-        file = open("freq/2.txt","w")
+        file = open("freq/22.txt","w")
         for i in self.bigram:
             file.write("%s\t%d\n" % (i,self.bigram[i]))
         file.close()
@@ -65,7 +72,7 @@ class NGram(object):
 
 if __name__== '__main__':
     lines = []
-    for parent,_,filenames in os.walk('corpus'):
+    for parent,_,filenames in os.walk('corpus_seg'):
         for filename in filenames:
             print filename
             path = os.path.join(parent,filename)
