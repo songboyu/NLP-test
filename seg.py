@@ -1,8 +1,8 @@
 # -*- coding:utf-8 -*-
 '''
   author: songboyu
-  create: 2013-10-27
-  summary: 测试类
+  modify: 2014-12-06
+  summary: 正向、逆向最大匹配分词测试
 '''
 
 import os, re
@@ -13,6 +13,11 @@ from seg_method.bwd_max import bwd_mm_seg
 
 CODEC = 'utf8'
 def file_seg_process(filename, method):
+    '''
+
+    @param filename: 文件名
+    @param method:   分词算法 { 0:正向，1:逆向 }
+    '''
     # 打开文件
     fp_dict = open('dict.txt')
     fp_input = open('corpus/'+filename)

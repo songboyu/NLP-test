@@ -1,5 +1,9 @@
 # -*- coding:utf-8 -*-
-
+'''
+  author: songboyu
+  modify: 2014-12-06
+  summary: 加载语言模型
+'''
 class LanguageModel(object):
 
   def __init__(self):
@@ -7,7 +11,7 @@ class LanguageModel(object):
     self.words_count = 0
     self.freq = {}
     print '[ Hashing Unigram ]'
-    f =  open('freq/21.txt','r')
+    f =  open('freq/word_freq.txt','r')
     for line in f:
       key,freq = line.split()
       self.freq[key] = int(freq)
@@ -16,7 +20,7 @@ class LanguageModel(object):
     f.close()
 
     print '[ Hashing Bigram ]'
-    f =  open('freq/22.txt','r')
+    f =  open('freq/bigram_freq.txt','r')
     for line in f:
       key,freq = line.split()
       self.freq[key] = int(freq)

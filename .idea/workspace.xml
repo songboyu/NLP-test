@@ -2,381 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d8dd51b-91d3-436e-bf66-01a1c68a75ed" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\GitHub\NLP-test\freq\Bigram_freq.txt" afterPath="" />
-      <change type="DELETED" beforePath="G:\GitHub\NLP-test\freq\word_freq.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960101.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960101.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960102.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960102.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960103.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960103.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960104.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960104.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960105.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960105.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960106.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960106.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960107.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960107.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960108.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960108.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960109.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960109.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960110.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960110.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960111.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960111.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960112.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960112.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960113.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960113.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960114.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960114.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960115.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960115.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960116.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960116.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960117.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960117.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960118.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960118.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960119.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960119.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960120.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960120.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960121.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960121.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960122.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960122.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960123.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960123.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960124.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960124.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960125.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960125.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960126.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960126.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960127.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960127.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960128.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960128.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960129.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960129.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960130.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960130.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960131.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960131.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960201.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960201.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960202.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960202.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960203.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960203.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960204.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960204.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960205.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960205.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960206.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960206.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960207.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960207.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960208.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960208.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960209.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960209.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960210.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960210.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960211.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960211.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960212.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960212.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960213.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960213.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960214.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960214.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960215.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960215.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960216.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960216.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960217.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960217.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960218.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960218.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960219.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960219.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960220.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960220.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960221.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960221.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960222.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960222.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960223.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960223.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960224.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960224.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960225.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960225.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960226.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960226.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960227.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960227.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960228.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960228.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960229.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960229.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960301.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960301.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960302.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960302.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960303.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960303.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960304.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960304.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960305.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960305.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960306.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960306.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960307.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960307.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960308.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960308.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960309.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960309.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960310.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960310.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960311.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960311.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960312.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960312.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960313.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960313.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960314.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960314.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960315.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960315.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960316.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960316.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960317.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960317.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960318.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960318.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960319.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960319.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960320.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960320.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960321.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960321.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960322.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960322.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960323.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960323.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960324.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960324.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960325.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960325.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960326.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960326.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960327.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960327.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960328.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960328.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960329.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960329.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960330.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960330.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960331.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960331.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960401.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960401.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960402.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960402.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960403.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960403.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960404.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960404.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960405.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960405.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960406.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960406.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960407.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960407.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960408.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960408.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960409.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960409.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960410.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960410.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960411.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960411.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960412.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960412.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960413.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960413.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960414.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960414.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960415.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960415.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960416.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960416.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960417.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960417.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960418.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960418.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960419.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960419.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960420.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960420.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960421.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960421.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960422.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960422.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960423.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960423.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960424.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960424.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960425.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960425.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960426.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960426.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960427.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960427.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960428.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960428.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960429.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960429.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960430.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960430.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960501.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960501.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960502.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960502.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960503.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960503.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960504.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960504.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960505.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960505.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960506.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960506.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960507.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960507.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960508.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960508.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960509.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960509.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960510.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960510.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960511.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960511.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960512.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960512.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960513.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960513.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960514.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960514.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960515.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960515.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960516.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960516.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960517.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960517.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960518.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960518.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960519.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960519.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960520.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960520.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960521.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960521.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960522.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960522.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960523.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960523.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960524.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960524.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960525.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960525.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960526.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960526.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960527.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960527.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960528.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960528.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960529.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960529.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960530.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960530.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960531.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960531.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960601.txt" afterPath="$PROJECT_DIR$/corpus_seg/960601.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960602.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960602.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960603.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960603.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960604.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960604.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960605.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960605.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960606.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960606.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960607.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960607.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960608.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960608.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960609.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960609.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960610.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960610.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960611.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960611.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960612.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960612.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960613.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960613.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960614.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960614.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960615.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960615.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960616.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960616.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960617.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960617.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960618.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960618.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960619.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960619.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960620.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960620.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960621.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960621.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960622.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960622.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960623.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960623.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960624.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960624.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960625.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960625.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960626.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960626.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960627.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960627.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960628.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960628.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960629.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960629.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960630.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960630.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960701.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960701.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960702.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960702.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960703.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960703.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960704.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960704.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960705.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960705.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960706.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960706.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960707.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960707.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960708.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960708.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960709.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960709.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960710.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960710.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960711.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960711.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960712.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960712.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960713.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960713.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960714.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960714.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960715.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960715.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960716.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960716.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960717.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960717.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960718.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960718.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960719.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960719.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960720.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960720.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960721.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960721.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960722.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960722.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960723.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960723.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960724.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960724.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960725.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960725.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960726.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960726.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960727.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960727.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960728.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960728.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960729.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960729.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960730.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960730.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960731.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960731.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960801.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960801.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960802.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960802.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960803.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960803.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960804.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960804.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960805.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960805.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960806.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960806.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960807.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960807.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960808.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960808.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960809.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960809.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960810.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960810.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960811.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960811.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960812.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960812.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960813.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960813.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960814.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960814.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960815.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960815.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960816.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960816.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960817.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960817.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960818.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960818.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960819.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960819.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960820.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960820.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960821.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960821.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960822.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960822.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960823.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960823.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960824.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960824.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960825.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960825.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960826.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960826.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960827.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960827.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960828.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960828.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960829.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960829.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960830.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960830.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960831.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960831.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960901.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960901.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960902.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960902.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960903.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960903.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960904.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960904.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960905.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960905.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960906.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960906.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960907.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960907.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960908.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960908.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960909.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960909.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960910.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960910.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960911.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960911.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960912.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960912.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960913.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960913.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960914.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960914.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960915.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960915.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960916.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960916.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960917.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960917.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960918.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960918.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960919.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960919.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960920.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960920.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960921.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960921.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960922.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960922.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960923.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960923.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960924.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960924.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960925.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960925.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960926.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960926.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960927.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960927.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960928.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960928.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960929.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960929.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/960930.TXT" afterPath="$PROJECT_DIR$/corpus_seg/960930.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961001.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961001.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961002.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961002.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961003.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961003.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961004.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961004.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961005.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961005.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961006.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961006.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961007.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961007.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961008.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961008.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961009.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961009.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961010.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961010.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961011.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961011.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961012.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961012.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961013.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961013.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961014.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961014.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961015.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961015.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961016.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961016.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961017.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961017.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961018.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961018.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961019.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961019.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961020.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961020.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961021.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961021.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961022.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961022.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961023.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961023.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961024.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961024.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961025.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961025.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961026.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961026.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961027.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961027.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961028.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961028.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961029.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961029.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961030.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961030.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961031.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961031.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961101.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961101.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961102.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961102.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961103.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961103.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961104.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961104.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961105.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961105.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961106.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961106.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961107.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961107.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961108.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961108.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961109.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961109.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961110.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961110.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961111.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961111.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961112.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961112.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961113.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961113.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961114.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961114.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961115.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961115.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961116.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961116.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961117.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961117.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961118.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961118.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961119.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961119.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961120.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961120.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961121.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961121.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961122.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961122.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961123.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961123.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961124.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961124.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961125.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961125.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961126.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961126.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961127.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961127.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961128.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961128.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961129.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961129.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961130.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961130.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961201.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961201.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961202.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961202.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961203.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961203.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961204.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961204.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961205.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961205.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961206.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961206.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961207.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961207.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961208.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961208.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961209.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961209.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961210.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961210.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961211.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961211.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961212.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961212.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961213.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961213.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961214.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961214.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961215.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961215.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961216.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961216.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961217.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961217.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961218.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961218.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961219.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961219.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961220.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961220.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961221.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961221.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961222.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961222.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961223.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961223.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961224.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961224.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961225.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961225.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961226.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961226.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961227.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961227.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961228.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961228.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961229.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961229.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961230.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961230.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corpus_seg/961231.TXT" afterPath="$PROJECT_DIR$/corpus_seg/961231.TXT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/NLP-test.iml" afterPath="$PROJECT_DIR$/.idea/NLP-test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InputMethod.py" />
+      <change type="DELETED" beforePath="G:\GitHub\NLP-test\PinYin.txt" afterPath="" />
+      <change type="DELETED" beforePath="G:\GitHub\NLP-test\dict_bak.txt" afterPath="" />
+      <change type="DELETED" beforePath="G:\GitHub\NLP-test\freq\11.txt" afterPath="" />
+      <change type="DELETED" beforePath="G:\GitHub\NLP-test\freq\12.txt" afterPath="" />
+      <change type="DELETED" beforePath="G:\GitHub\NLP-test\freq\21.txt" afterPath="" />
+      <change type="DELETED" beforePath="G:\GitHub\NLP-test\freq\22.txt" afterPath="" />
+      <change type="DELETED" beforePath="G:\GitHub\NLP-test\main.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common.py" afterPath="$PROJECT_DIR$/common.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model.py" afterPath="$PROJECT_DIR$/model.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ngram.py" afterPath="$PROJECT_DIR$/ngram.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seg.py" afterPath="$PROJECT_DIR$/seg.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="G:\GitHub\NLP-test\viterbi.py" afterPath="$PROJECT_DIR$/algorithm/viterbi.py" />
     </list>
     <ignored path="NLP-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -388,11 +27,14 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/NLP-test$main.coverage" NAME="main Coverage Results" MODIFIED="1417771563281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP-test$Tire1.coverage" NAME="Tire1 Coverage Results" MODIFIED="1417844763202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP-test$main.coverage" NAME="main Coverage Results" MODIFIED="1417859378894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP-test$ngram.coverage" NAME="ngram Coverage Results" MODIFIED="1417766470560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP-test$Tire2.coverage" NAME="Tire2 Coverage Results" MODIFIED="1417845073682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP-test$Tire.coverage" NAME="Tire Coverage Results" MODIFIED="1417848252747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP-test$seg.coverage" NAME="seg Coverage Results" MODIFIED="1417766389620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NLP-test$viterbi.coverage" NAME="viterbi Coverage Results" MODIFIED="1417770812973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NLP-test$model.coverage" NAME="model Coverage Results" MODIFIED="1417765613002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP-test$viterbi.coverage" NAME="viterbi Coverage Results" MODIFIED="1417840574484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP-test$model.coverage" NAME="model Coverage Results" MODIFIED="1417858512651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -406,31 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="InputMethod.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/InputMethod.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.8020304" vertical-offset="0" max-vertical-offset="1950">
-              <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viterbi.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/viterbi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="990">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fwd_max.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seg_method/fwd_max.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="1080">
-              <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+            <state vertical-scroll-proportion="4.436975" vertical-offset="0" max-vertical-offset="2940">
+              <caret line="176" column="25" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -439,8 +61,8 @@
       <file leaf-file-name="model.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1005">
-              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -449,11 +71,19 @@
       <file leaf-file-name="ngram.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ngram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1380">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-              <folding>
-                <element signature="e#23#35#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
+              <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -461,9 +91,11 @@
       <file leaf-file-name="seg.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#97#110#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -481,10 +113,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/viterbi.py" />
+        <option value="$PROJECT_DIR$/tire.py" />
+        <option value="$PROJECT_DIR$/Tire.py" />
+        <option value="$PROJECT_DIR$/Tire2.py" />
+        <option value="$PROJECT_DIR$/Tire1.py" />
+        <option value="$PROJECT_DIR$/Trie.py" />
+        <option value="$PROJECT_DIR$/common.py" />
         <option value="$PROJECT_DIR$/seg.py" />
         <option value="$PROJECT_DIR$/ngram.py" />
-        <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/InputMethod.py" />
       </list>
     </option>
   </component>
@@ -570,11 +210,21 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings />
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GitHub\NLP-test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\GitHub\NLP-test\algorithm" />
+      <recent name="G:\GitHub\NLP-test" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -590,11 +240,68 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NLP-test" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="G:\GitHub\NLP-test\InputMethod.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tire" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NLP-test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\GitHub\NLP-test\algorithm\Trie.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tire1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NLP-test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tire1.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tire2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NLP-test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tire2.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -612,63 +319,6 @@
       <module name="NLP-test" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ngram" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NLP-test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ngram.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="seg" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NLP-test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seg.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="viterbi" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NLP-test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/viterbi.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -758,9 +408,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -782,6 +429,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -826,22 +476,25 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.model" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ngram" />
-      <item index="3" class="java.lang.String" itemvalue="Python.seg" />
-      <item index="4" class="java.lang.String" itemvalue="Python.viterbi" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Tire" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Tire1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Tire2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.model" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.viterbi" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ngram" />
-        <item index="3" class="java.lang.String" itemvalue="Python.seg" />
-        <item index="4" class="java.lang.String" itemvalue="Python.model" />
+        <item index="1" class="java.lang.String" itemvalue="Python.model" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Tire" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Tire2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Tire1" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5d8dd51b-91d3-436e-bf66-01a1c68a75ed" name="Default" comment="" />
@@ -863,15 +516,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34947369" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34526315" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -895,10 +548,59 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/InputMethod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="808" max-vertical-offset="1950">
+          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/viterbi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="990">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seg_method/fwd_max.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1080">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1005">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ngram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1380">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1080">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputMethod.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
@@ -918,29 +620,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1305">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#35#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/InputMethod.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="2112">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PinYin.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="199904">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model.py">
@@ -958,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/corpus/960101.TXT">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13904">
@@ -972,82 +654,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PinYin.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94690263" vertical-offset="186410" max-vertical-offset="187410">
-          <caret line="12463" column="0" selection-start-line="12463" selection-start-column="0" selection-end-line="12463" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://G:/Python27/Lib/encodings/utf_8.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="720">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seg_method/fwd_max.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="489" max-vertical-offset="1080">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/viterbi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="990">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dict.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23893805" vertical-offset="1530" max-vertical-offset="5558415">
           <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seg.py">
+    <entry file="file://$PROJECT_DIR$/algorithm/Trie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.62562394" vertical-offset="494" max-vertical-offset="1095">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.py">
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-324465326/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1005">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.33277312" vertical-offset="49827" max-vertical-offset="77445">
+          <caret line="3335" column="8" selection-start-line="3335" selection-start-column="8" selection-end-line="3335" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="569">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#97#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ngram.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1380">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-          <folding>
-            <element signature="e#23#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/viterbi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="990">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seg_method/fwd_max.py">
+    <entry file="file://$PROJECT_DIR$/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="1080">
-          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/InputMethod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8020304" vertical-offset="0" max-vertical-offset="1950">
-          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        <state vertical-scroll-proportion="4.436975" vertical-offset="0" max-vertical-offset="2940">
+          <caret line="176" column="25" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
           <folding />
         </state>
       </provider>

@@ -1,7 +1,10 @@
 # -*- coding:utf-8 -*-
-import os,re
-
-from common import u
+'''
+  author: songboyu
+  modify: 2014-12-06
+  summary: 统计unigram,bigram词频
+'''
+import os
 
 class NGram(object):
     '''n元词频统计'''
