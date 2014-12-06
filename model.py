@@ -14,14 +14,14 @@ class LanguageModel(object):
     # 发射概率（拼音/词）
     self.emission = {}
     # 加载一元词频
-    print '[ Loading Unigram.. ]'
+    # print '[ Loading Unigram.. ]'
     # self.load_unigram('freq/word_freq.txt')
     # 加载二元词频
     print '[ Loading Bigram.. ]'
-    self.load_bigram('freq/bigram_freq.txt')
+    self.load_bigram('freq/bigram_freq_selected.txt')
     # 加载发射概率（拼音/词）
-    print '[ Loading pinyins.. ]'
-    self.load_emission('dict.txt')
+    print '[ Loading Unigram and Pinyins.. ]'
+    self.load_emission('freq/dict_selected.txt')
 
   def load_unigram(self, filename):
     f =  open(filename, 'r')
