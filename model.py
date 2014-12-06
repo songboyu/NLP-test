@@ -7,11 +7,24 @@
 class LanguageModel(object):
 
   def __init__(self):
-    self.unigram_count = 0
-    self.words_count = 0
+    self.unigram_count = 0.0
+    self.words_count = 0.0
+    # 词频字典
     self.freq = {}
-    print '[ Hashing Unigram ]'
-    f =  open('freq/word_freq.txt','r')
+    # 发射概率（拼音/词）
+    self.emission = {}
+    # 加载一元词频
+    print '[ Loading Unigram.. ]'
+    # self.load_unigram('freq/word_freq.txt')
+    # 加载二元词频
+    print '[ Loading Bigram.. ]'
+    self.load_bigram('freq/bigram_freq.txt')
+    # 加载发射概率（拼音/词）
+    print '[ Loading pinyins.. ]'
+    self.load_emission('dict.txt')
+
+  def load_unigram(self, filename):
+    f =  open(filename, 'r')
     for line in f:
       key,freq = line.split()
       self.freq[key] = int(freq)
@@ -19,14 +32,41 @@ class LanguageModel(object):
       self.words_count += int(freq)
     f.close()
 
-    print '[ Hashing Bigram ]'
-    f =  open('freq/bigram_freq.txt','r')
+  def load_bigram(self, filename):
+    f =  open(filename, 'r')
     for line in f:
       key,freq = line.split()
       self.freq[key] = int(freq)
     f.close()
 
-  def get_trans_prop(self, word, condition):
+  def load_emission(self, filename):
+    """加载发射概率，针对多音字 如：
+
+     重 [zhong，chong]
+     则 [zhong][重] 的emssion 值为 2
+     使用时转换为 1/2
+
+    """
+    with open(filename,'r') as f:
+      for line in f:
+        if len(line.strip()) > 0:
+          arr = line.strip().split()
+          key = arr[0]
+          freq = arr[1]
+          pinyin = '|'.join([py for py in arr[2:]])
+
+          self.freq[key] = int(freq)
+          self.unigram_count += 1
+          self.words_count += int(freq)
+
+          if pinyin not in self.emission:
+            self.emission[pinyin] = {}
+          # 存储的概率是P(拼音|汉字),为了计算方便，所以用拼音做key
+          if key not in self.emission[pinyin]:
+              self.emission[pinyin][key] = 0
+          self.emission[pinyin][key] += 1
+
+  def bigram(self, word, condition):
     """获得转移概率"""
     key = word + '|' + condition
     if key not in self.freq:
@@ -37,30 +77,7 @@ class LanguageModel(object):
     C_2 = (float)(self.freq[condition] + 0.5*self.unigram_count)
     return C_1/C_2
 
-  def get_init_prop(self, word):
+  def init_score(self, word):
     """获得初始概率"""
     C_1 = (float)(self.freq[word])
-    C_2 = (float)(self.words_count)
-    return C_1/C_2
-
-  def get_prop(self, *words):
-    """获得指定序列的概率"""
-    init = self.get_init_prop(words[0])
-    product = 1.0
-    for i in range(1,len(words)):
-      product *= self.get_trans_prop(words[i],words[i-1])
-    return init * product
-
-def main():
-    lm = LanguageModel()
-    print 'total words: ', lm.unigram_count
-    print 'total keys: ', len(lm.freq)
-    print 'P(结) = ', lm.get_init_prop('结')
-    print 'P(结|团) = ', lm.get_trans_prop('结','团')
-    print 'P(国|中) = ', lm.get_trans_prop('国','中')
-    print 'P(法|入) = ', lm.get_trans_prop('法','入')
-    print 'P(发|入) = ', lm.get_trans_prop('发','入')
-    print 'P(奋斗|团结) = ', lm.get_trans_prop('奋斗','团结')
-
-if __name__ == '__main__':
-    main()
+    return C_1

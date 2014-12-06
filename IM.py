@@ -7,6 +7,7 @@
 from model import LanguageModel
 
 class GraphNode(object):
+  """有向图节点"""
   def __init__(self, word, emission):
     # 当前节点所代表的汉字（即状态）
     self.word = word
@@ -38,12 +39,12 @@ class Graph(object):
       pys = []
       current_position = {}
       for j in range(i,len(pinyins)+1):
-        py = ' '.join(pinyins[i:j])
-        if py in im.emission:
+        py = '|'.join(pinyins[i:j])
+        if py in im.lm.emission:
           pys.append(py)
 
       for py in pys:
-        for word,emission in im.emission[py].items():
+        for word,emission in im.lm.emission[py].items():
           node = GraphNode(word, emission)
           current_position[word] = node
 
@@ -55,48 +56,19 @@ class Graph(object):
       self.sequence.append(current_position)
 
 class InputMethod(object):
-  def __init__(self, py_file):
+  def __init__(self):
     # 加载语言模型
-    self.lm = self.load_lm()
-    # 发射概率（拼音/词）
-    self.emission = {}
+    self.lm = LanguageModel()
     # 待求解的拼音输入
     self.pinyins = []
     # 有向图
     self.graph = None
-    # 加载发射概率（拼音/词）
-    self.load_emission(py_file)
+
     # viterbi递归的缓存
     self.viterbi_cache = {}
 
   def get_key(self, *words):
     return '_'.join([ str(w) for w in words])
-
-  def load_emission(self, py_file):
-    """加载发射概率，针对多音字 如：
-
-     重 [zhong，chong]
-     则 [zhong][重] 的emssion 值为 2
-     使用时转换为 1/2
-
-    """
-    with open(py_file,'r') as f:
-      for line in f:
-        if len(line.strip()) > 0:
-          arr = line.strip().split()
-          word = arr[0]
-          pinyin = ' '.join([py[0:-1] for py in arr[1:]])
-          # prop = float(1)/len(pinyins)
-          if pinyin not in self.emission:
-            self.emission[pinyin] = {}
-          # 存储的概率是P(拼音|汉字),为了计算方便，所以用拼音做key
-          if word not in self.emission[pinyin]:
-              self.emission[pinyin][word] = 0
-          self.emission[pinyin][word] += 1
-
-  def load_lm(self):
-    """加载二元语言模型"""
-    return LanguageModel()
 
   def translate(self, pinyins):
     '''
@@ -140,52 +112,36 @@ class InputMethod(object):
       return self.viterbi_cache[self.get_key(t,k)]
     node = self.graph.sequence[t][k]
 
-
-    # 开始
+    # 开始时加载句首词词频作为初始概率
     if t == 0:
-      init_prop = self.lm.get_init_prop(k)
+      init_prop = self.lm.init_score(k)
     else:
       init_prop = 1
 
     # 到达结尾
     if t == len(self.pinyins)-length_self:
-      pinyin = ' '.join(self.pinyins[t:t+length_self])
-      emission_prop = 1/self.emission[pinyin][k]
+      pinyin = '|'.join(self.pinyins[t:t+length_self])
+      emission_prop = 1/self.lm.emission[pinyin][k]
 
       node.max_score = emission_prop
       self.viterbi_cache[self.get_key(t,k)] = node.max_score
       return node.max_score
 
-
     # 获得下一个状态所有可能的词
     next_words = self.graph.sequence[t+length_self].keys()
-    for l in next_words:
+    for word in next_words:
       # 下一个词长度
-      length_next = len(l.decode('utf8'))
+      length_next = len(word.decode('utf8'))
+      state_transfer = self.lm.bigram(word, k)
+      pinyin = '|'.join(self.pinyins[t+length_self : t+length_self+length_next])
 
-      state_transfer = self.lm.get_trans_prop(l, k)
-      pinyin = ' '.join(self.pinyins[t+length_self : t+length_self+length_next])
-      emission_prop = 1/self.emission[pinyin][l]
+      emission_prop = 1/self.lm.emission[pinyin][word]
       # 递归调用，直到最后一个拼音结束
-      score = self.viterbi(t+length_self, l) * state_transfer * emission_prop * init_prop
+      score = self.viterbi(t+length_self, word) * state_transfer * emission_prop * init_prop
 
       if score > node.max_score:
         node.max_score = score
-        node.next_node = self.graph.sequence[t+length_self][l]
+        node.next_node = self.graph.sequence[t+length_self][word]
 
     self.viterbi_cache[self.get_key(t,k)] = node.max_score
     return node.max_score
-
-def main():
-  im = InputMethod('dict.txt')
-  print im.translate(['ce','shi','zhong','wen','shu','ru','fa'])
-  print im.translate(['zhong','hua','ren','min','gong','he','guo'])
-  print im.translate(['yi','zhi','mei','li','de','xiao','hua'])
-  print im.translate(['wo','ai','bei','jing','tian','an','men'])
-
-  while True:
-    pinyins = raw_input("pinyin: ")
-    print im.translate(pinyins.split())
-
-if __name__ == '__main__':
-  main()

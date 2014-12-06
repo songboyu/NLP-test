@@ -7,7 +7,7 @@
 
 import os, re
 
-from common import u
+from common import u,strQ2B
 from seg_method.fwd_max import fwd_mm_seg
 from seg_method.bwd_max import bwd_mm_seg
 
@@ -26,15 +26,29 @@ def file_seg_process(filename, method):
     wordDict = {} 
     # 读取字典到内存中
     for eachWord in fp_dict:
-        wordDict[u(eachWord.split('\t')[0].strip(), 'utf-8')] = 1
+        wordDict[u(eachWord.split()[0].strip(), 'utf-8')] = 1
 
     # 对input每一行操作
+    str = ''
     for eachLine in fp_input:
-
-        str = u(eachLine.strip(), 'utf-8')
         line_out = ''
+        sub = strQ2B(u(eachLine.strip(), 'utf-8'))
+        if not sub.startswith('  '):
+            str += sub
+            continue
+
         strlen = len(str)
+
         while strlen > 0:
+            m = re.match(r'\w+', str)
+            if m is not None:
+                subStr = m.group()
+                line_out += subStr.encode(CODEC)+'/'
+                subLen = len(subStr)
+                str = str[subLen:]
+                strlen = strlen - subLen
+                continue
+
             m = re.match(ur'[\u4e00-\u9fa5]+', str)
             if m is not None:
                 subStr = m.group()
@@ -60,6 +74,7 @@ def file_seg_process(filename, method):
         if line_out.strip() == '':
             continue
         fp_output.write(line_out + '\n')
+        str = sub
     # close file
     fp_input.close()
     fp_dict.close()
@@ -69,4 +84,4 @@ if __name__ == '__main__':
     for _,_,filenames in os.walk('corpus'):
         for filename in filenames:
             print filename
-            file_seg_process(filename, 0)
+            file_seg_process(filename, 1)

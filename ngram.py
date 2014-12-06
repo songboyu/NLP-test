@@ -4,7 +4,7 @@
   modify: 2014-12-06
   summary: 统计unigram,bigram词频
 '''
-import os
+import os,re
 
 class NGram(object):
     '''n元词频统计'''
@@ -40,14 +40,14 @@ class NGram(object):
         print '[ Hash finish ]'
 
         #unigram
-        file = open("freq/21.txt","w")
+        file = open("freq/word_freq.txt","w")
         for i in self.unigram:
             file.write("%s\t%d\n" % (i,self.unigram[i]))
         file.close()
         print '[ Unigram file finish ]'
 
         #bigram
-        file = open("freq/22.txt","w")
+        file = open("freq/bigram_freq.txt","w")
         for i in self.bigram:
             file.write("%s\t%d\n" % (i,self.bigram[i]))
         file.close()
@@ -61,6 +61,9 @@ class NGram(object):
         '''
         # unigram
         for i in range(0,len(words)):
+            if not re.search(ur'[\u4e00-\u9fa5]+', words[i].decode('utf8')):
+                continue
+
             key = words[i]
             if key not in self.unigram:
                 self.unigram[key] = 0
@@ -68,6 +71,11 @@ class NGram(object):
 
         # bigram
         for i in range(1,len(words)):
+            if not re.search(ur'[\u4e00-\u9fa5]+', words[i].decode('utf8')):
+                continue
+            if not re.search(ur'[\u4e00-\u9fa5]+', words[i-1].decode('utf8')):
+                continue
+
             key = words[i] + '|' + words[i-1]
             if key not in self.bigram:
                 self.bigram[key] = 0
