@@ -59,7 +59,7 @@ class Trie(object):
 
 if __name__ == '__main__':
     tree = Trie()
-    f = open('dict.txt')
+    f = open('../freq/dict.txt')
     for line in f:
         tree.insert(line.split()[0])
 

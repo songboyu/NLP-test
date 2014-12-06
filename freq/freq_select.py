@@ -1,3 +1,9 @@
+# -*- coding:utf-8 -*-
+'''
+  author: songboyu
+  modify: 2014-12-07
+  summary: 筛选出现频率较高的一元、二元key
+'''
 if __name__ == '__main__':
     input = open('dict.txt', 'r')
     output = open('dict_selected.txt', 'w')

@@ -2,10 +2,10 @@
 '''
   author: songboyu
   modify: 2014-12-06
-  summary: 字符编码转换
+  summary: 字符串处理集
 '''
 def u(s, encoding):
-    'converted other encoding to unicode encoding'
+    '''转换为unicode'''
     if isinstance(s, unicode):
         return s
     else:
