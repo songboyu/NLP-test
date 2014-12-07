@@ -27,9 +27,11 @@ NLP-test
             freq_select.py              选择高频词程序
             word_freq.txt               一元词频表
             unigram_freq.txt            二元词频表
-            dict.txt                    [词/拼音]字典
             unigram_freq_selected.txt   二元词频表----高频
+            dict.txt                    [词/拼音]字典
             dict-selected.txt           [词/拼音]字典----高频
+            
+            
             
     · alogorithm/
             Trie2.py                    生成汉语拼音的trie树结构
