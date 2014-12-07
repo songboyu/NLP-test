@@ -5,7 +5,7 @@
   summary: 拼音串(已切分)转汉字串
 '''
 from core.Model import LanguageModel
-from core.Gragh import Graph
+from core.Graph import Graph
 
 class InputMethod(object):
   def __init__(self):
