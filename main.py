@@ -5,6 +5,8 @@
   summary: 拼音输入法测试类
 '''
 from core.InputMethod import InputMethod
+from pinyin.Pinyin import pinyin
+
 if __name__ == '__main__':
   im = InputMethod()
   print im.translate(['a','li','ba','ba','ji','tuan'])
@@ -16,4 +18,12 @@ if __name__ == '__main__':
 
   while True:
     pinyins = raw_input("Pinyin: ")
-    print im.translate(pinyins.split())
+    if len(pinyins.split()) > 1:
+        print im.translate(pinyins.split())
+    else:
+        pinyins = pinyin(pinyins)
+        sucess,pinyins = pinyins.split()
+        if sucess:
+            print im.translate(pinyins)
+        else:
+            print '*** 拼音输入有误！***'
