@@ -36,9 +36,6 @@ class pinyin(object):
             c = self.pinyins[i]
             # 读入字符 c
             input += c
-            # 读到最后一个字符
-            if i == len(self.pinyins)-1:
-                result.append(input)
             # c是 i|u|v，并且是拼音串的首字母
             if c in iuv and len(input)==1:
                 return False,None
@@ -74,8 +71,10 @@ class pinyin(object):
                 result.append(input)
                 input = ''
 
+        result.append(input)
+
         return True,result
 
 if __name__ == '__main__':
-    pinyins = pinyin('beijingtiananmen')
+    pinyins = pinyin('zenmeyanga')
     print pinyins.split()
