@@ -26,30 +26,28 @@ class NGram(object):
         words = []
         num = 0
         for line in lines:
-            num+=1
+            num += 1
             print num
             # 统计n元字频，若统计词频将 list(line.decode('utf8')) 替换为 line.decode('utf8').split('/')
+            words.append('<li>')
             words.extend([w.encode('utf8') for w in list(line.decode('utf8').split('/')) if len(w.strip())>0])#and w in self.wordDict])
-        # file = open("words.txt","w")
-        # for i in words:
-        #     file.write(i+' ')
-        # file.close()
-        print '[ Make words list finish ]'
+            words.append('</li>')
 
         self.ngram(words)
-        print '[ Hash finish ]'
+
+        print '[ Hashed ]'
 
         #unigram
         file = open("freq/word_freq.txt","w")
-        for i in self.unigram:
-            file.write("%s\t%d\n" % (i,self.unigram[i]))
+        for key,value in self.unigram.items():
+            file.write("%s\t%d\n" % (key, value))
         file.close()
         print '[ Unigram file finish ]'
 
         #bigram
         file = open("freq/bigram_freq.txt","w")
-        for i in self.bigram:
-            file.write("%s\t%d\n" % (i,self.bigram[i]))
+        for key,value in self.bigram.items():
+            file.write("%s\t%d\n" % (key, value))
         file.close()
         print '[ Bigram file finish ]'
 
@@ -61,7 +59,7 @@ class NGram(object):
         '''
         # unigram
         for i in range(0,len(words)):
-            if not re.search(ur'[\u4e00-\u9fa5]+', words[i].decode('utf8')):
+            if not re.search(ur'([\u4e00-\u9fa5]|<li>|</li>)+', words[i].decode('utf8')):
                 continue
 
             key = words[i]
@@ -71,9 +69,9 @@ class NGram(object):
 
         # bigram
         for i in range(1,len(words)):
-            if not re.search(ur'[\u4e00-\u9fa5]+', words[i].decode('utf8')):
+            if not re.search(ur'([\u4e00-\u9fa5]|<li>|</li>)+', words[i].decode('utf8')):
                 continue
-            if not re.search(ur'[\u4e00-\u9fa5]+', words[i-1].decode('utf8')):
+            if not re.search(ur'([\u4e00-\u9fa5]|<li>|</li>)+', words[i-1].decode('utf8')):
                 continue
 
             key = words[i] + '|' + words[i-1]

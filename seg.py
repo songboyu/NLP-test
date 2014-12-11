@@ -7,7 +7,7 @@
 
 import os, re
 
-from common import u,strQ2B
+from common import u,strQ2B,tsplit
 from seg_method.fwd_max import fwd_mm_seg
 from seg_method.bwd_max import bwd_mm_seg
 
@@ -36,9 +36,7 @@ def file_seg_process(filename, method):
         if not sub.startswith('  '):
             str += sub
             continue
-
         strlen = len(str)
-
         while strlen > 0:
             m = re.match(r'\w+', str)
             if m is not None:
@@ -48,6 +46,13 @@ def file_seg_process(filename, method):
                 str = str[subLen:]
                 strlen = strlen - subLen
                 continue
+
+            if str[0:1].encode('utf8') in [',','。','!','?',':']:
+                subStr = str[0:1]
+                line_out += '\n'
+                subLen = len(subStr)
+                str = str[subLen:]
+                strlen = strlen - subLen
 
             m = re.match(ur'[\u4e00-\u9fa5]+', str)
             if m is not None:
@@ -66,12 +71,10 @@ def file_seg_process(filename, method):
                 strlen = strlen - subLen
                 continue
 
-            # subStr = str[0]
-            # line_out += subStr.encode(CODEC)
             str = str[1:]
             strlen = strlen - 1
 
-        if line_out.strip() == '':
+        if len(line_out.strip()) == 0:
             continue
         fp_output.write(line_out + '\n')
         str = sub

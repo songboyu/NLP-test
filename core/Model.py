@@ -14,8 +14,8 @@ class LanguageModel(object):
     # 发射概率（拼音/词）
     self.emission = {}
     # 加载一元词频
-    # print '[ Loading Unigram.. ]'
-    # self.load_unigram('freq/word_freq.txt')
+    print '[ Loading Unigram.. ]'
+    self.load_unigram('freq/word_freq.txt')
     # 加载二元词频
     print '[ Loading Bigram.. ]'
     self.load_bigram('freq/bigram_freq_selected.txt')
@@ -52,12 +52,12 @@ class LanguageModel(object):
         if len(line.strip()) > 0:
           arr = line.strip().split()
           key = arr[0]
-          freq = arr[1]
+          # freq = arr[1]
           pinyin = '|'.join([py for py in arr[2:]])
 
-          self.freq[key] = int(freq)
-          self.unigram_count += 1
-          self.words_count += int(freq)
+          # self.freq[key] = int(freq)
+          # self.unigram_count += 1
+          # self.words_count += int(freq)
 
           if pinyin not in self.emission:
             self.emission[pinyin] = {}
@@ -79,5 +79,4 @@ class LanguageModel(object):
 
   def init_score(self, word):
     """获得初始概率"""
-    C_1 = (float)(self.freq[word])
-    return C_1
+    return self.bigram(word, '<li>')
