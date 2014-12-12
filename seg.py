@@ -14,7 +14,6 @@ from seg_method.bwd_max import bwd_mm_seg
 CODEC = 'utf8'
 def file_seg_process(filename, method):
     '''
-
     @param filename: 文件名
     @param method:   分词算法 { 0:正向，1:逆向 }
     '''
@@ -26,18 +25,20 @@ def file_seg_process(filename, method):
     wordDict = {} 
     # 读取字典到内存中
     for eachWord in fp_dict:
-        wordDict[u(eachWord.split()[0].strip(), 'utf-8')] = 1
+        wordDict[u(eachWord.split()[0].strip(), CODEC)] = 1
 
     # 对input每一行操作
     str = ''
     for eachLine in fp_input:
         line_out = ''
-        sub = strQ2B(u(eachLine.strip(), 'utf-8'))
+        # 每一段作为一行输入给分词函数
+        sub = strQ2B(u(eachLine.strip(), CODEC))
         if not sub.startswith('  '):
             str += sub
             continue
         strlen = len(str)
         while strlen > 0:
+            # 英文字符或数字--原文输出
             m = re.match(r'\w+', str)
             if m is not None:
                 subStr = m.group()
@@ -46,14 +47,14 @@ def file_seg_process(filename, method):
                 str = str[subLen:]
                 strlen = strlen - subLen
                 continue
-
-            if str[0:1].encode('utf8') in [',','。','!','?',':']:
+            # 短句结尾标志--输出换行
+            if str[0:1].encode(CODEC) in [',','。','!','?',':']:
                 subStr = str[0:1]
                 line_out += '\n'
                 subLen = len(subStr)
                 str = str[subLen:]
                 strlen = strlen - subLen
-
+            # 汉字--分词处理，输出 词/词
             m = re.match(ur'[\u4e00-\u9fa5]+', str)
             if m is not None:
                 subStr = m.group()
@@ -70,12 +71,13 @@ def file_seg_process(filename, method):
                 str = str[subLen:]
                 strlen = strlen - subLen
                 continue
-
+            # 其他特殊字符--跳过
             str = str[1:]
             strlen = strlen - 1
-
+        # 跳过处理后为空行的段落
         if len(line_out.strip()) == 0:
             continue
+        # 写入文件
         fp_output.write(line_out + '\n')
         str = sub
     # close file

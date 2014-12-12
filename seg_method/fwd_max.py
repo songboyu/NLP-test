@@ -10,6 +10,13 @@ from common import u
 CODEC='utf-8'
 
 def fwd_mm_seg(wordDict, maxLen, str):
+    '''正向最大匹配分词
+
+    @param wordDict:    词表
+    @param maxLen:      词最大长度（自定义）
+    @param str:         待分词的字串
+    @return:            分词序列（List）
+    '''
     wordList = []
     segStr = str
     segStrLen = len(segStr)

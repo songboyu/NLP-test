@@ -68,7 +68,7 @@ class InputMethod(object):
 
     # 开始时加载句首词词频作为初始概率
     if t == 0:
-      init_prop = self.lm.init_score(k)
+      init_prop = self.lm.get_init_score(k)
     else:
       init_prop = 1
 
@@ -86,7 +86,7 @@ class InputMethod(object):
     for word in next_words:
       # 下一个词长度
       length_next = len(word.decode('utf8'))
-      state_transfer = self.lm.bigram(word, k)
+      state_transfer = self.lm.get_trans_pro(word, k)
       pinyin = '|'.join(self.pinyins[t+length_self : t+length_self+length_next])
 
       emission_prop = 1/self.lm.emission[pinyin][word]

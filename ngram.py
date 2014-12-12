@@ -6,6 +6,7 @@
 '''
 import os,re
 
+CODEC = 'utf8'
 class NGram(object):
     '''n元词频统计'''
     def __init__(self):
@@ -19,18 +20,20 @@ class NGram(object):
 
     def scan(self, lines):
         '''
-        逐行扫描，记录并更新ngram
+        逐行扫描，ngram结果记录到文件中
         @param    sentence    list{str}
         @return   none
         '''
         words = []
-        num = 0
         for line in lines:
-            num += 1
-            print num
-            # 统计n元字频，若统计词频将 list(line.decode('utf8')) 替换为 line.decode('utf8').split('/')
+            # 统计n元词频
             words.append('<li>')
-            words.extend([w.encode('utf8') for w in list(line.decode('utf8').split('/')) if len(w.strip())>0])#and w in self.wordDict])
+            wordlist = [
+                w.encode(CODEC)
+                for w in list(line.decode(CODEC).split('/'))
+                if len(w.strip())>0
+            ]
+            words.extend(wordlist)
             words.append('</li>')
 
         self.ngram(words)
@@ -53,15 +56,15 @@ class NGram(object):
 
     def ngram(self, words):
         '''
-        计算ngram
+        统计ngram
         @param    words       list{str}
         @return   none
         '''
+        partten = ur'([\u4e00-\u9fa5]|<li>|</li>)+'
         # unigram
         for i in range(0,len(words)):
-            if not re.search(ur'([\u4e00-\u9fa5]|<li>|</li>)+', words[i].decode('utf8')):
+            if not re.search(partten, words[i].decode(CODEC)):
                 continue
-
             key = words[i]
             if key not in self.unigram:
                 self.unigram[key] = 0
@@ -69,9 +72,9 @@ class NGram(object):
 
         # bigram
         for i in range(1,len(words)):
-            if not re.search(ur'([\u4e00-\u9fa5]|<li>|</li>)+', words[i].decode('utf8')):
+            if not re.search(partten, words[i].decode(CODEC)):
                 continue
-            if not re.search(ur'([\u4e00-\u9fa5]|<li>|</li>)+', words[i-1].decode('utf8')):
+            if not re.search(partten, words[i-1].decode(CODEC)):
                 continue
 
             key = words[i] + '|' + words[i-1]
