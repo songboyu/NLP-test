@@ -1,8 +1,9 @@
-#!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# * trie, prefix tree
-# * Algorithm refered : http://blog.csdn.net/v_july_v/article/details/6897097
-# * Codes Refered : http://blog.csdn.net/psrincsdn/article/details/8158182
+'''
+  author: songboyu
+  modify: 2014-12-06
+  summary: 建立Tire树
+'''
 
 class Node(object):
     def __init__(self):
@@ -30,7 +31,6 @@ class Trie(object):
             node = node.children[c]
             if node.word:
                 matches.append(node.word)
-
         if len(matches) == 0:
             return False
         return True

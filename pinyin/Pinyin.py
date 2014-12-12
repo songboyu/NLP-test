@@ -23,9 +23,11 @@ class pinyin(object):
         @param pinyin:  拼音串 str
         @return:        分割后的拼音列表 list
         '''
-        # 拼音声母
-        pinyin_initials = ['a','b', 'p', 'm', 'f', 'd', 't', 'n', 'l', 'g', 'k', 'h', 'j', 'q', 'x', 'zh', 'ch', 'sh', 'r', 'z', 'c', 's', 'y', 'w']
-
+        # 可作为拼音开头的字母
+        pinyin_initials = ['a', 'b', 'e', 'p', 'm', 'f', 'd',
+                           't', 'n', 'l', 'g', 'k', 'h', 'j',
+                           'q', 'x', 'r', 'z', 'c', 's', 'y', 'w']
+        # pinyin_initials = self.tree.root.children
         iuv = ['i','u','v']
         grn = ['g','r','n']
 
@@ -76,5 +78,5 @@ class pinyin(object):
         return True,result
 
 if __name__ == '__main__':
-    pinyins = pinyin('zenmeyanga')
+    pinyins = pinyin('woaizhonghuarenmingongheguo')
     print pinyins.split()
